@@ -38,7 +38,7 @@ if menu == "Dashboard":
 
     st.subheader("Korelasi Antar Fitur Numerik")
     num_cols = ['Age', 'Total Spend', 'Items Purchased', 'Average Rating', 'Days Since Last Purchase']
-    # st.dataframe(df[num_cols].corr())
+    st.dataframe(df[num_cols].corr())
 
 # ------------------------
 # MENU 2: PREDIKSI
